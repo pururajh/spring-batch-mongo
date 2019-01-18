@@ -14,5 +14,21 @@ public class CustomerProfile {
 	private String fname;
 	@Field("l_name")
 	private String lname;
+	@Field("status")
+	private String status;
+	@Field("email")
+	private String email;
+	public String getStatus() {
+		return this.status;
+	}
+	public String getFname() {
+		return this.fname;
+	}
+	public String getLname() {
+		return this.lname;
+	}
+	public String getEmail() {
+		return this.email;
+	}
 
 }
